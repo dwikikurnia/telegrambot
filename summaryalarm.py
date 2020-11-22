@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-url2 = "http://10.35.105.112/dev1/MONITA/AREA01/c_load_data_summary/wali_in_technical_area_current?_dc=1605518123239&technical_area=RTPO%20TEMBILAHAN&l1_id=all&class_input=all"
+url2 = ""
 response2 = requests.get(url2).text
 jsond2 = json.loads(response2)
 
