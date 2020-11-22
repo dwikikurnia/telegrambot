@@ -9,7 +9,7 @@ import ast
 from pandas.io.json import json_normalize
 
 siteid = "BKG597"
-url2 = "http://10.35.105.77/AGATAarea01/api/get_traffic_payload_npa_weekly?_dc=1603635259455&site_id=" + siteid + "&m=trafficsiteweekly&page=1&start=0&limit=25"
+url2 = ""
 response2 = requests.get(url2).text
 repl2 = re.sub("(success+|data+|jml+):", r'"\1":',response2)
 jsond2 = json.loads(repl2)
