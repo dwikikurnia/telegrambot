@@ -83,10 +83,10 @@ for x in data['result']:
         driver.get("https://sumbagteng.toti-telkomsel.com")
 
         username = driver.find_element_by_name("username")
-        username.send_keys("rtpo_tembilahan")
+        username.send_keys("")
 
         password = driver.find_element_by_name("password")
-        password.send_keys("SEL_AHAN")
+        password.send_keys("")
 
         login = driver.find_element_by_name("submit")
         login.click()
@@ -146,10 +146,10 @@ for x in data['result']:
         driver.set_window_size(1500, 1080)
         driver.maximize_window()
         #username = driver.find_element_by_name("username")
-        #username.send_keys("rtpo_tembilahan")
+        #username.send_keys("")
 
         #password = driver.find_element_by_name("password")
-        #password.send_keys("SEL_AHAN")
+        #password.send_keys("")
 
         #login = driver.find_element_by_name("submit")
         #login.click()
@@ -158,12 +158,12 @@ for x in data['result']:
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "username"))
             )
-            element.send_keys("rtpo_tembilahan")
+            element.send_keys("")
             
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "password"))
             )
-            element.send_keys("SEL_AHAN")
+            element.send_keys("")
             
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "submit"))
@@ -202,10 +202,10 @@ for x in data['result']:
         driver.get("https://sumbagteng.toti-telkomsel.com")
 
         username = driver.find_element_by_name("username")
-        username.send_keys("rtpo_tembilahan")
+        username.send_keys("")
 
         password = driver.find_element_by_name("password")
-        password.send_keys("SEL_AHAN")
+        password.send_keys("")
 
         login = driver.find_element_by_name("submit")
         login.click()
@@ -259,10 +259,10 @@ for x in data['result']:
         driver.get("http://10.9.97.226/mbp/#/auth")
         
         username = driver.find_element_by_id("input-email")
-        username.send_keys("dwikikun")
+        username.send_keys("")
         
         password = driver.find_element_by_id("input-password")
-        password.send_keys("Poring@1234")
+        password.send_keys("")
         time.sleep(1.5)
         password.send_keys(Keys.ENTER)
         
@@ -333,12 +333,12 @@ for x in data['result']:
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_username"))
             )
-            element.send_keys("dewadis")
+            element.send_keys("")
             
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_password"))
             )
-            element.send_keys("apaya")
+            element.send_keys("")
             time.sleep(1)
             element.send_keys(Keys.ENTER)
             driver.get("http://10.35.193.59/cacti/plugins/weathermap/weathermap-cacti-plugin.php?action=viewmap&id=4763d17a5b018eec9322")
@@ -368,12 +368,12 @@ for x in data['result']:
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_username"))
             )
-            element.send_keys("admin")
+            element.send_keys("")
             
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_password"))
             )
-            element.send_keys("ganteng123")
+            element.send_keys("")
             time.sleep(1)
             element.send_keys(Keys.ENTER)
             #driver.execute_script("document.body.style.zoom='75%'")
@@ -402,12 +402,12 @@ for x in data['result']:
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_username"))
             )
-            element.send_keys("admin")
+            element.send_keys("")
             
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_password"))
             )
-            element.send_keys("ganteng123")
+            element.send_keys("")
             time.sleep(1)
             element.send_keys(Keys.ENTER)
             #driver.execute_script("document.body.style.zoom='75%'")
@@ -436,12 +436,12 @@ for x in data['result']:
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_username"))
             )
-            element.send_keys("admin")
+            element.send_keys("")
             
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_password"))
             )
-            element.send_keys("ganteng123")
+            element.send_keys("")
             time.sleep(1)
             element.send_keys(Keys.ENTER)
             #driver.execute_script("document.body.style.zoom='75%'")
@@ -471,12 +471,12 @@ for x in data['result']:
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_username"))
             )
-            element.send_keys("cacti")
+            element.send_keys("")
             
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_password"))
             )
-            element.send_keys("cacti")
+            element.send_keys("")
             time.sleep(1)
             element.send_keys(Keys.ENTER)
             
@@ -525,12 +525,12 @@ for x in data['result']:
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_username"))
             )
-            element.send_keys("admin")
+            element.send_keys("")
             
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.NAME, "login_password"))
             )
-            element.send_keys("ganteng123")
+            element.send_keys("")
             time.sleep(1)
             element.send_keys(Keys.ENTER)
             
@@ -597,12 +597,12 @@ for x in data['result']:
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.ID, "loginUsername"))
             )
-            element.send_keys("dwikikun")
+            element.send_keys("")
             
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.ID, "loginPassword"))
             )
-            element.send_keys("Poring@123")
+            element.send_keys("")
                
             element = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, "span.torLogin-Holder-formButtonImage"))
