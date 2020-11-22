@@ -12,7 +12,7 @@ from pandas.io.json import json_normalize
 #Define Revenue
 siteid = "RGT514"
 siteid = siteid.upper()
-url1 = "http://10.35.105.77/AGATAarea01/api/get_revenue_npa_weekly?_dc=1603633807221&site_id=" + siteid + "&m=revenuesiteweekly&page=1&start=0&limit=25"
+url1 = ""
 response = requests.get(url1).text
 repl = re.sub("(success+|data+|jml+):", r'"\1":',response)
 jsond = json.loads(repl)
