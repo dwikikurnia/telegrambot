@@ -30,7 +30,7 @@ import logging
 logging.basicConfig(filename="/home/dwiki/logbot.log",level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
  
-bot = "947011165:AAHpIt9HVlPrbkXC6bS07h2UqbITCCNUDXU" # Bot RTPO Tembilahan
+bot = "" # Bot RTPO Tembilahan
 r = requests.get('https://api.telegram.org/bot%s/getupdates?timeout=30' %bot)
 jsondata = r.content
 pesan = ""
