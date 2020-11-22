@@ -10,14 +10,14 @@ from pandas.io.json import json_normalize
 
 siteid = "RGT600"
 
-url1 = "http://10.35.105.77/AGATAarea01/api/get_revenue_npa?_dc=1603524758517&site_id=" + siteid +"&m=revenuesitedaily&page=1&start=0&limit=25"
+url1 = ""
 response = requests.get(url1).text
 repl = re.sub("(success+|data+|jml+):", r'"\1":',response)
 jsond = json.loads(repl)
 alrdata = jsond['data']
 jmlalr = jsond['jml']
 
-url2 = "http://10.35.105.77/AGATAarea01/api/get_traffic_payload_npa?_dc=1603536899911&site_id=" + siteid + "&m=trafficsitedaily&page=1&start=0&limit=25"
+url2 = ""
 response2 = requests.get(url2).text
 repl2 = re.sub("(success+|data+|jml+):", r'"\1":',response2)
 jsond2 = json.loads(repl2)
