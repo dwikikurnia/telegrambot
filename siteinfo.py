@@ -5,8 +5,8 @@ import json
 
 siteid = input("Masukkan Site ID : ")
 siteid = siteid.upper()
-urlnos = 'http://10.35.105.77/AGATAarea01/load_data_summary/only_site_panel_id_data_nos_network_profile_site?_dc=1606567409913&site_id=' + siteid + '&page=1&start=0&limit=20'
-urlrto = 'http://10.35.105.77/AGATAarea01/load_data_summary/only_site_panel_id_data_rto_network_profile_site?_dc=1606567426164&site_id=' + siteid + '&page=1&start=0&limit=20'
+urlnos = '' + siteid + ''
+urlrto = '' + siteid + ''
 response_nos = requests.get(urlnos).text
 response_rto = requests.get(urlrto).text
 repl_nos = re.sub("(success+|data+|jml+):", r'"\1":',response_nos)
