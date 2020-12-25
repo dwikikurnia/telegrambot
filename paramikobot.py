@@ -5,9 +5,9 @@ import pandas as pd
 # Input Data
 command = input('Masukkan Command: ')
 siteid = input('Masukkan Site ID: ').upper()
-user = "dwiki"
-passwd = "poring@123"
-ipaddr = "10.37.2.188"
+user = ""
+passwd = ""
+ipaddr = ""
 
 # Load Data IP IOAM
 df = pd.read_excel("D:\Backup Desember 2019\My Telkomsel\RTPO Tembilahan\DLD Migrasi\IP OAM RBS Desember 2020.xlsx")
